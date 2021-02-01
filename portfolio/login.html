@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Certificates</title>
+    <link rel="stylesheet" type="text/css" href="./assessts/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assessts/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <script type="text/javascript" src="./assessts/js/lib/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./assessts/js/lib/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><i class="far fa-user"></i> Krishi Bisht</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-scroll" ></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="knowwledge.html">Skills <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="hobbies.html">Hobbies <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="certificate.html">Certification</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="allprojects.html">All Projects</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Login-Gateway</a>
+                <a class="dropdown-item" href="#">Portfolio Site</a>
+                <a class="dropdown-item" href="robot.html">Robot</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container mt-3">
+        <div class="jumbotron" id="black">
+            <div class="row">
+                <div class="card col mx-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title display-3" id="text"><strong>Programming Language</strong></h5>
+                        <ul>
+                            <h3><li id="text"><strong><i class="fab fa-python"></i> Python</strong></li></h3>
+                        </ul>
+                    </div>
+                </div>
+            </div>   
+            <div class="row my-5">
+                <div class="card col mx-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title display-3" id="text"><strong>Libraries</strong></h5>
+                        <ul>
+                            <h4><li id="text"><strong><i class="fab fa-python"></i> Pycryptogram</strong> for encryption</li></h4>
+                            <h4><li id="text"><strong><i class="fab fa-python"></i> Tkinter</strong> for GUI</li></h4>
+                        </ul>
+                    </div>
+                </div>
+            </div>  
+            <div class="row my-5">
+                <div class="card col mx-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title display-3" id="text"><strong>About AES</strong></h5>
+                        <h5 id="text">The Advanced Encryption Standard (AES) is a symmetric block cipher chosen by the U.S. government to protect classified information. AES is implemented in software and hardware throughout the world to encrypt sensitive data. It is essential for government computer security, cybersecurity and electronic data protection.<br><br>
+                            AES-128 uses a 128-bit key length to encrypt and decrypt a block of messages, while AES-192 uses a 192-bit key length and AES-256 a 256-bit key length to encrypt and decrypt messages. Each cipher encrypts and decrypts data in blocks of 128 bits using cryptographic keys of 128, 192 and 256 bits, respectively.<br><br>
+                        </h5>
+                    </div>
+                </div>
+            </div>           
+            <div class="row my-5">
+                <div class="card col mx-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title display-3" id="text"><strong>Implentation</strong></h5>
+                        <h5 id="text">When a string of information  is parsed to be encrypted, using the AES 256 BIT version the string goes through 16 rounds of permutations and combinations and the result is such that the the string is now completely changed and cannot be of any use unless 1st decrypted. 
+                            <br><br>These rounds are not completely random, they work on a key that is also used to decrypt the message, thus even if the same string goes through the encryption 2 times, the encrypted string is different but the decrypted one is always the inserted string.</h5>
+                    </div>
+                </div>
+            </div>  
+            <div class="row my-5">
+                <div class="card col mx-3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title display-3" id="text"><strong>Purpose</strong></h5>
+                        <h5 id="text">What makes our encryption better is that it utilizes the 256 BIT version, which is more secure than the current 128 BIT version as the number of rounds has increased from 12 to 16.<br><br>
+                            With the onset of QUANTUM computers the 128 BIT version can be cracked using the groove’s algorithm the string can now be cracked in 2^64 combinations than the intended 2^128, which is solvable by current supercomputers in realistic time. But even if the algorithm reduces our encryption to solvable in 2^128, it is still not crackable in realistic time.<br>
+                            Thus making 256 BIT more reliable than the current widley used 128 BIT AES encryption.
+                        </h5>
+                    </div>
+                </div>
+            </div>             
+        </div>
+        <div class="jumbotron" id="black">
+            <h1 class="display-4 mb-4" id="center">To know more Contact/Follow Me At</h1>
+            <div class="d-flex justify-content-center">   
+                <a class="btn btn-outline-primary mx-3" href="https://www.facebook.com/krishi.bisht.5/"><i class="fab fa-facebook-square"></i> Facebook</a>    
+                <a class="btn btn-outline-dark mx-3" href="https://www.instagram.com/krishi_bisht/"><i class="fab fa-instagram"></i> Instagram</a>   
+                <a class="btn btn-outline-info mx-3" href="https://www.linkedin.com/in/krishi-bisht-a967811b5"><i class="fab fa-linkedin"></i> LinkedIn</a>    
+            </div>
+            
+            <h5 class="display-5 mt-4" id="center">Email Address: <span style="color: aqua;">krishisinghbisht2000@gmail.com</span></h1>
+        </div>
+    </div>
+
+</body>
+</html>

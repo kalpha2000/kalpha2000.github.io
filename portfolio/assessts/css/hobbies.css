@@ -1,0 +1,20 @@
+body {
+    background: url("https://images.unsplash.com/photo-1580089471304-680d1604c33d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fGhvYmJ5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    opacity: 0.89; 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    font-size: large;
+}
+
+.pad {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
